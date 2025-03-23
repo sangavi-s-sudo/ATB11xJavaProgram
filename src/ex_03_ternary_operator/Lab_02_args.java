@@ -1,4 +1,4 @@
-package ex_02_ternary_operator;
+package ex_03_ternary_operator;
 
 public class Lab_02_args {
     public static void main(String[] args) {

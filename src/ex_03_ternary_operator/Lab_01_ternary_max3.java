@@ -1,4 +1,4 @@
-package ex_02_ternary_operator;
+package ex_03_ternary_operator;
 
 public class Lab_01_ternary_max3 {
     public static void main(String[] args) {
