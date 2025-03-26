@@ -1,4 +1,4 @@
-package functions;
+package ex_08_functions;
 
 public class Functions_userDefined {
     public static void main(String[] args) {

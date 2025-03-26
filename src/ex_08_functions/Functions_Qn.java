@@ -1,8 +1,8 @@
-package functions;
+package ex_08_functions;
 
-public class Do_while_Qn3 {
+public class Functions_Qn {
     public static void main(String[] args) {
-        main(3.14f);
+        System.out.println(main(3.14f));
     }
 
     public static void main(String args) {
@@ -13,8 +13,8 @@ public class Do_while_Qn3 {
         return 10;
     }
 
-    public static int main(float args) {
-        return 10;
+    public static float main(float args) {
+        return 10.9f;
     }
 
     public static boolean main(boolean args) {

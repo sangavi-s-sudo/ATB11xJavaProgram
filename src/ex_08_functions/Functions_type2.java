@@ -1,4 +1,4 @@
-package functions;
+package ex_08_functions;
 
 public class Functions_type2 {
     public static void main(String[] args) {
