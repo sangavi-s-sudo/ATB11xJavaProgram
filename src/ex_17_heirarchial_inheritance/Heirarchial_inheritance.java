@@ -14,6 +14,7 @@ public class Heirarchial_inheritance {
         N11.home();
         N11.n1();
         K11.k1();
+        s11.s1();
 
 
     }
