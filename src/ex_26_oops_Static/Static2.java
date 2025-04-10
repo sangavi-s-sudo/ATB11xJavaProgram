@@ -1,4 +1,4 @@
-package ex_25_oops_Static;
+package ex_26_oops_Static;
 
 public class Static2 {
     public static void main(String[] args) {

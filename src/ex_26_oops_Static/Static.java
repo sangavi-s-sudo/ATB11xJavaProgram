@@ -1,4 +1,4 @@
-package ex_25_oops_Static;
+package ex_26_oops_Static;
 
 public class Static {
     public static void main(String[] args) {
@@ -11,6 +11,8 @@ public class Static {
         P b = new P();
         // static can be called only once but IIB and constructors can be called based on object creation.
         // why static is called only once ? because only one time the class is loaded. Becoz if you create multiple objects , but class will load only one time.
+        // SIB will be called based on class
+        // IIB and DC will be called based on objects creation.
 //here IIb -> 2 times
 //     DC -> 2 times
 //     SIB -> 1 times
