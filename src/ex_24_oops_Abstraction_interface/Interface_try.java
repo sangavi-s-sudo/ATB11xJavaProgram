@@ -38,8 +38,4 @@ class ABC implements Naveen, Kavitha{
         System.out.println("HEYYY");
     }
 
-    @Override
-    public void show1() {
-        System.out.println("HEYYYER");
-    }
 }

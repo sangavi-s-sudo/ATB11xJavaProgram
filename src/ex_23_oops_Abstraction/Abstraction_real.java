@@ -1,11 +1,10 @@
 package ex_23_oops_Abstraction;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Abstraction_real {
     public static void main(String[] args) {
         sons s1 = new sons();
         s1.computePay();
+        System.out.println("-------");
         s1.mailCheck();
 
         //Employee f1 = new Employee(); -> this is not possible as this is abstract in nature .n i.e) incomplete claasses cannot hav objet

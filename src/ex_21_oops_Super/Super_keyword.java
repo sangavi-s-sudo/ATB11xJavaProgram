@@ -13,7 +13,6 @@ public class Super_keyword {
         c1.show();
         c1.setMaxSpeed(220);
         System.out.println(c1.getMaxSpeed());
-
     }
 }
 

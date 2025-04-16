@@ -15,8 +15,8 @@ public class OOps_structure {
         System.out.println(p1.greet("ABCDE"));
 
         new Person(); // -> it is a object without any reference -> However, this object is not referenced anywhere, so it cannot be accessed later. That means this object is immediately eligible for garbage collection since it has no reference.
-        new Person().name = "Not Ref name";
-        System.out.println(new Person().name);
+        new Person().name = "Not Ref name"; // in this line we are assigning this object to  "Not Ref name" value . But when it goes to next line it becomes  unreachable . Becoz this object is not stored in any variable
+        System.out.println(new Person().name);// so here the default value of String is printed
     }
 }
 

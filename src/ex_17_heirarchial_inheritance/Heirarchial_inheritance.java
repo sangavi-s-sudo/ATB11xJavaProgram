@@ -1,7 +1,5 @@
 package ex_17_heirarchial_inheritance;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Heirarchial_inheritance {
     public static void main(String[] args) {
         Father f1 = new Father();

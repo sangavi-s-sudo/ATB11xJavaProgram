@@ -34,5 +34,9 @@ public class Dynamic_dispatch_purpose {
         System.out.println("----------------------");
         Father f12 = new Son();
         f12.home();
+
+        System.out.println("----------------------");
+        GrandFather gf14 = new Father();
+        gf14.home();
     }
 }

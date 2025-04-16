@@ -6,6 +6,7 @@ public class Cop {
 
     public Cop(int bullet){
         this.gun = bullet;
+        System.out.println(gun);
     }
     protected void CanIShoot(){
         System.out.println("yes! you can shoot.");

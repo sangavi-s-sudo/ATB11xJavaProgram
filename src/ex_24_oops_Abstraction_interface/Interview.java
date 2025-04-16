@@ -3,13 +3,13 @@ package ex_24_oops_Abstraction_interface;
 
 public class Interview {
     public static void main(String[] args) {
-
+        ConcreteClass c1 = new ConcreteClass();
+        c1.dispaly3();
+        c1.display();
     }
 }
 
 class ConcreteClass implements IncompleteClass {
-
-
 
     @Override
     public void dispaly3() {

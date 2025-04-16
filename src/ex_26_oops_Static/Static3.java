@@ -18,7 +18,7 @@ public class Static3 {
     }
 }
 
-// static means common across all of them. ALl the objects will have the same value.
+// static means common across all of the objects. ALl the objects will have the same value.
 // we can call static variable using class name becoz it belongs to class.
 
 class A1 {
