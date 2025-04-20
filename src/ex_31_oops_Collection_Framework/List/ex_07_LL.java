@@ -8,6 +8,7 @@ public class ex_07_LL {
     public static void main(String[] args) {
         List list = new ArrayList(5); // we can initiate the initialCapacity
         List mylist0 = new ArrayList(); // // Arrays Format - Continuously stored
+        // ArrayList allows and store null and duplicates values.
 
 
         List mylist2 = new LinkedList(); // Doubly Linked List. --> Stored anywhere

@@ -8,7 +8,7 @@ public class ex_01_Array_problems_01 {
     }
 
     // 1. Fixed Size
-    // 2. can't store Similar Data Type
+    // 2. can't store different Data Type
     // Doesn't grow Automatically,
     // Less elements -> wastage of memory.  size = 100, only used 10, 90 are waste.
 

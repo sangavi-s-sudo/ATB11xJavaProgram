@@ -6,7 +6,6 @@ public class Generics_03_in_classes {
         GenericClass <Integer> def = new GenericClass(6);
         abc.getData();
         def.getData();
-
     }
 }
 // t -> it is placeholder only -> it can be any data type.

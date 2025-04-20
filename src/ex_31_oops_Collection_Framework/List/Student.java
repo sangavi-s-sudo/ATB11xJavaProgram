@@ -5,6 +5,7 @@ public class Student {
         return name;
     }
 
+
     public void setName(String name) {
         this.name = name;
     }
@@ -27,7 +28,7 @@ public class Student {
 
 
     @Override  // by using override we will print the value of name , rollNo
-    public String toString() {
+    public String toString() { // By default, toString() returns something like Student@6f94fa3e  Which is the class name and memory reference — not helpful. But when you override it, you can control the output:
         return "Student{" +
                 "name='" + name + '\'' +
                 ", rollNo='" + rollNo + '\'' +

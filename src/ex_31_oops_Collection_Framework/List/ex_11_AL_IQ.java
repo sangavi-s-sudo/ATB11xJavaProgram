@@ -13,12 +13,18 @@ public class ex_11_AL_IQ {
         marks.add(89);
 
 
+
         System.out.println(marks);
-        Collections.sort(marks);
+
+        Collections.sort(marks);  // for sorting we need same data types
         System.out.println(marks);
 
         // Collection - Interface
         // Collections - Class (it contains complete methods which list,set, qu may required)
+
+
+         Collections.reverseOrder(); // Collections.reverseOrder() returns a comparator for reverse sorting.
+// As we are not applying it to any list, so nothing changes.It must be used with Collections.sort() to sort a list in descending order.
 
         Collections.sort(marks,Collections.reverseOrder());
         System.out.println(marks);

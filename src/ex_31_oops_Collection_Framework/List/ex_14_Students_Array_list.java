@@ -16,6 +16,7 @@ public class ex_14_Students_Array_list {
 
 
         System.out.println(myStudents);  // it will print the object references only if override is not used.
+        System.out.println("-------------");  // it will print the object references only if override is not used.
 
         s1.getDetails();
         s2.getDetails();

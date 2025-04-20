@@ -16,6 +16,7 @@ public class ex_03_ArrayListConcept2 {
         List l1 = new ArrayList(); // Dynamic Dispatch
         l1.add("123");
         l1.add("456");
+        l1.add(123);
         System.out.println(l1);
         System.out.println(l1.isEmpty());
 

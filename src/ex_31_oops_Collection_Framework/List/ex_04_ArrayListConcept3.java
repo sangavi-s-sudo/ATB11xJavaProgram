@@ -6,7 +6,12 @@ import java.util.List;
 public class ex_04_ArrayListConcept3 {
     public static void main(String[] args) {
        // List list = new ArrayList(10);// we can define by using initialCapacity also
-        List list = new ArrayList();
+        List list = new ArrayList(5);
+
+        // Initial capacity just sets the starting size of internal array.
+// It does NOT limit how many elements can be added.
+// ArrayList will grow automatically when more elements are added.(internally happens)
+
         list.add(1);
         list.add("see");
         list.add("4");
