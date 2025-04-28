@@ -22,5 +22,5 @@ public class While_Factorial {
         System.out.println("Factorial of " + number + " is "  + factorial);
         }
     }
-
+//
 
