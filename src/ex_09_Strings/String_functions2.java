@@ -36,7 +36,7 @@ public class String_functions2 {
 
         // substring( , )
         System.out.println(name.substring(1,3));
-        System.out.println(name.substring(1,7));
+        System.out.println(name.substring(1,5));
 
         //toLowerCase()
         System.out.println("SONAL".toLowerCase());

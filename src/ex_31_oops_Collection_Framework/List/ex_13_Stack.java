@@ -21,8 +21,11 @@ public class ex_13_Stack {
 
         System.out.println(s.size());
         System.out.println(s.peek());
+        System.out.println("++++++++");
         System.out.println(s);
         System.out.println(s.pop());
+        System.out.println(")))))))))))))");
+
         System.out.println(s);
 
 

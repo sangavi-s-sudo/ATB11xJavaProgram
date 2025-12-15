@@ -32,6 +32,7 @@ class Father{
 
 class Son extends Father{
     int bike = 1;
+    int gold_father = 10;
     void bhk_3(){
         System.out.println("3bhk of son");
     }

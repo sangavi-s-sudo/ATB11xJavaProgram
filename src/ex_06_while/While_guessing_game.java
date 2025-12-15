@@ -26,5 +26,7 @@ public class While_guessing_game {
             }
 
         }
+        System.out.println("You took " + attempts + " attempts to guess the number");
     }
+
 }

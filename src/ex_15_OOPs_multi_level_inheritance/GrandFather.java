@@ -4,7 +4,7 @@ public class GrandFather {
     void Gf(){
         System.out.println("I am a grand Father");
     }
-    int gold_gf = 10;
+    int gold_gf = 160;
 
     void home(){
         System.out.println("1bhk");

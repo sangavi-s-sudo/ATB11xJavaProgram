@@ -19,9 +19,13 @@ public class ex_02_linkedList_Queue {
 
         Iterator iterator = queue.iterator();   // in automation we use this
         while(iterator.hasNext()){
-            System.out.print(iterator.next());
+            System.out.println(iterator.next());
         }
 
+
+        for(int o: queue){
+            System.out.println(o);
+        }
         }
     }
 

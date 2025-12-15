@@ -25,7 +25,7 @@ public class StringBuffer_vs_StringBuilder {
         stringBuilder.delete(4,9);
         System.out.println(stringBuilder);
 
-        stringBuffer.replace(3,4,"c");
+        stringBuilder.replace(3,4,"c");
         System.out.println(stringBuffer);
 
     }

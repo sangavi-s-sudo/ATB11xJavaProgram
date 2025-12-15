@@ -8,7 +8,7 @@ public class Input_args {
         System.out.println("Enter your age");
         int age = scans.nextInt();
 
-        int s1 = Integer.parseInt(args[0]);
+        String s1 = (args[0]);
         System.out.println(s1);
     }
 }

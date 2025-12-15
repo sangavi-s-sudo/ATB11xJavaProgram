@@ -5,9 +5,11 @@ public class easy_super {
         God g1 = new God();
         g1.display();
 
+        System.out.println("========");
         Animal a1 = new Animal();
         System.out.println(a1.color);
 
+        System.out.println("+++++++++++");
         Dog d1 = new Dog();
         d1.display();
     }

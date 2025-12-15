@@ -15,7 +15,7 @@ interface Naveen {
         System.out.println("hi");
     }
 
-    static void show2() {
+     static void show2() {
         System.out.println("hiii");
     }
 

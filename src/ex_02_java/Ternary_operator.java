@@ -13,10 +13,10 @@ public class Ternary_operator {
         System.out.println(g);
 
         //max of three numbers
-        int x = 3 , y = 13 , z = -4;
+        int x = 3 , y = 13 , z = 24;
 
         // rough x > y -> ( (x> z)? x : z)
-        int m = (x > y)? ( (x> z)? x : z) : y;
+        int m = Math.max(x, Math.max(y, z));
         System.out.println(m);
     }
 }

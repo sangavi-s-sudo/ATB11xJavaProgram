@@ -6,6 +6,7 @@ import java.util.Map;
 public class ex_02_HashMap {
     public static void main(String[] args) {
         Map map = new HashMap();
+        HashMap m1 = new HashMap();
         map.put("id",1);
         map.put("id",2); // latest value of duplicates will be outputted
         map.put("id2",2);

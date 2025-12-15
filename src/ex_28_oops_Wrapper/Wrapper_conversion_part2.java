@@ -24,6 +24,7 @@ public class Wrapper_conversion_part2 {
         // How to convert primitive data type (int) to String
         int age = 10;
         Integer age_wrapper = age;
+        String ef = Integer.toString(age_wrapper);
         System.out.println(age_wrapper.toString());
     }
 }

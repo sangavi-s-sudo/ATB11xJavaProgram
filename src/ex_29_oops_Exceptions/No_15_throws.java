@@ -2,19 +2,22 @@ package ex_29_oops_Exceptions;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.IOException;
 
-public class No_15_throws {
-    public static void main(String[] args) throws Exception {// all exceptions are handled here using throws
-        FileInputStream fileInputStream = new FileInputStream("C://a.log");
-        String s1 = null;
-        s1.trim();
-        int a = 10/0;
-        File file = new File("");
+class Example {
+    // This method declares that it may throw an IOException
+    void readFile() throws IOException {
+        FileReader file = new FileReader("daascata.txt");
+        file.close();
     }
 
-
-    // throws can be used in any method
-    static void t() throws Exception{
-        FileInputStream fileInputStream = new FileInputStream("C://a.log");
+    public static void main(String[] args) {
+        Example obj = new Example();
+        try {
+            obj.readFile(); // must handle or declare IOException
+        } catch (IOException e) {
+            System.out.println("File not found or cannot be read!");
+        }
     }
 }

@@ -20,7 +20,16 @@ public class ex_03_ArrayListConcept2 {
         System.out.println(l1);
         System.out.println(l1.isEmpty());
 
-        List l2 = new ArrayList();
+        List<Integer> l2 = new ArrayList();
+        System.out.println(l2);
+        l2.add(2);
+        l2.add(4);
+        l2.add(9);
+        l2.add(10);
+        l2.add(2);
+        for (int o: l2){
+            System.out.println(o);
+        }
         System.out.println(l2.isEmpty());
 
 

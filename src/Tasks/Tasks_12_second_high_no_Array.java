@@ -1,5 +1,7 @@
 package Tasks;
 
+import ex_10_Arrays.Arrays;
+
 public class Tasks_12_second_high_no_Array {
     public static void main(String[] args) {
         int[] array = {11, 2, 3, 4, 11, 5, 6, 13, 3,12};

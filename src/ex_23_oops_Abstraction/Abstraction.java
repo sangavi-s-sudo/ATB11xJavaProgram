@@ -9,6 +9,7 @@ public class Abstraction {
         //Father f1 = new Father(); -> this is not possible as this is abstract in nature .n i.e) incomplete claasses cannot hav objcet
 
         Father f2 = new Son();
+        s1.loan50k();
     }
 }
 abstract class Father{

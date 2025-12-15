@@ -18,8 +18,6 @@ public class Generics_01 {
     static String temp_sum(String a, String b) {
         return a + b;
     }
-
-
 }
 // Here the problem is we have to write different functions for the same sum behavior with different data types.
 // so to solve this we hae generics

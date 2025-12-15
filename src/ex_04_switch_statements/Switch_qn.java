@@ -6,6 +6,7 @@ public class Switch_qn {
         //switch (b) {  // we cannot use booleans in Switch
 
         String value = b ? "true": "false";
+        System.out.println(value);
 
         switch (value){
             case "true":

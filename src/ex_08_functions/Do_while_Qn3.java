@@ -14,6 +14,7 @@ public class Do_while_Qn3 {
     }
 
     public static int main(float args) {
+        System.out.println(args);
         return 10;
     }
 

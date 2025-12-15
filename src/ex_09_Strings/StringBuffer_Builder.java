@@ -5,7 +5,7 @@ public class StringBuffer_Builder {
         String s1 = "Sangavi";
         String s2 = new String("Sangavi");
 
-        StringBuffer stringBuffer = new StringBuffer("Sangavi");
+        StringBuffer stringBuffer = new StringBuffer("hello java hey");
         StringBuilder stringBuilder = new StringBuilder("Sangavi");
 
         System.out.println(s1);

@@ -3,7 +3,7 @@ package ex_29_oops_Exceptions;
 // Throw an exception if age is below 18 (print "Access denied"). If age is 18 or older, print "Access granted":
 public class No_17_throw {
     public static void main(String[] args) throws ArithmeticException{
-        checkAge(25);
+        checkAge(12);
     }
 
     private static void checkAge(int age) {

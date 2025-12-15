@@ -1,5 +1,5 @@
 package ex_13_OOPs_constructor;
-
+// this is default constructor
 public class Constructor_part3 {
     public static void main(String[] args) {
         Car c1 = new Car();
@@ -10,10 +10,11 @@ public class Constructor_part3 {
 
         System.out.println("_________________________");
         Car c2 = new Car();
-
+        c2.model = "rty";
         System.out.println(c2.name);
         System.out.println(c2.year);
         System.out.println(c2.model);
+
     }
 }
 class Car{

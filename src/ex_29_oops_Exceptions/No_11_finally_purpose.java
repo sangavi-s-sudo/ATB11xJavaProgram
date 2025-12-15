@@ -11,6 +11,7 @@ public class No_11_finally_purpose {
 
         try{
             int a = 10/input;
+            System.out.println(a);
         }catch (ArithmeticException e){
             System.out.println(e.getMessage());
         }finally {

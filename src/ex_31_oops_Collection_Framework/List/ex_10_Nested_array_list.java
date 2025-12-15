@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ex_10_Nested_array_list {
     public static void main(String[] args) {
-        List<String> fruits1 = new ArrayList();
+        List fruits1 = new ArrayList();
         fruits1.add("orange");
         fruits1.add("apple");
         fruits1.add("cherry");

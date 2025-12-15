@@ -8,6 +8,7 @@ public class Task_12_palindrome_check {
             char ch = input.charAt(i);
             str = str + ch;
          }
+        System.out.println(str);
         boolean s = input.equalsIgnoreCase(str) ;
         System.out.println(s);
     }

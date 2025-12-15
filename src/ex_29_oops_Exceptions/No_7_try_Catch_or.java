@@ -3,8 +3,7 @@ package ex_29_oops_Exceptions;
 public class No_7_try_Catch_or {
     public static void main(String[] args) {
         try{
-            String s1 = null;
-            s1.trim();
+
             int a = 10/0;
 
         } catch (ArithmeticException | NullPointerException e){

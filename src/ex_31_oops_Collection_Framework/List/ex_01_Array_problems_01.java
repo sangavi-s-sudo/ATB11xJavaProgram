@@ -1,9 +1,13 @@
 package ex_31_oops_Collection_Framework.List;
 
+import java.util.Arrays;
+
 public class ex_01_Array_problems_01 {
     public static void main(String[] args) {
         Integer[]  arr = new Integer[10];// Fixed Size
         arr[0] = 12;
+        arr[1] = 12;
+        System.out.println(Arrays.toString(arr));
         // arr[1] = "pramod";
     }
 

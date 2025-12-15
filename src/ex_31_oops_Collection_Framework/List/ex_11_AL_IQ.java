@@ -29,5 +29,9 @@ public class ex_11_AL_IQ {
         Collections.sort(marks,Collections.reverseOrder());
         System.out.println(marks);
 
+        Collections.sort(marks, Collections.reverseOrder())  ;
+        System.out.println(marks);
+
+
     }
 }

@@ -1,31 +1,32 @@
 package ex_31_oops_Collection_Framework.Map;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ex_06_Two_sum_problem {
-    public static void main(String[] args) {
-        int[] nums = {2, 7, 11, 15};
-        int target = 26;
-        int[] result = twoSum(nums, target);
-
-        if (result != null) {
-            System.out.println("Indices: [" + result[0] + ", " + result[1] + "]");
-        } else {
-            System.out.println("No solution found.");
+class Main {
+    public static int[] twoSum(int[] nums, int target) {
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
+                    return new int[] {i, j};
+                }
+            }
         }
+        // if no pair found
+        return new int[] {};
     }
 
-    private static int[] twoSum(int[] nums, int target) {
+    public static void main(String[] args) {
+        int[] nums = {2, 4, 11, 1,8};
+        int target = 9;
 
-        Map< Integer, Integer > map = new HashMap<>();
+        int[] result = twoSum(nums, target);
 
-        for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
-
-            if (map.containsKey(complement)) {
-                return new int[]{map.get(complement), i};
-            }
-            map.put(nums[i], i);
+        if (result.length > 0) {
+            System.out.println(Arrays.toString(result));
+        } else {
+            System.out.println("No pair found.");
         }
-        return null;}}
+    }
+}

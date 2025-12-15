@@ -8,5 +8,11 @@ public class Real_Single_inheritance {
         System.out.println("_____________________");
         Testcases2 s2 = new Testcases2();
         s2.sleep();
+
+
+        Son s3 = new Son();
+        System.out.println(s3.bike);
+        System.out.println(s3.gold_father);
+
     }
 }

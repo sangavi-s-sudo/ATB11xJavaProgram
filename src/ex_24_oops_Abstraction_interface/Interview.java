@@ -9,10 +9,14 @@ public class Interview {
     }
 }
 
-class ConcreteClass implements IncompleteClass {
+class ConcreteClass extends Incomplete_abstract implements IncompleteClass {
 
     @Override
     public void dispaly3() {
+
+    }
+
+    public  void display1(){
 
     }
 }
